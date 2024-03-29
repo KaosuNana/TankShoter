@@ -1,0 +1,2457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1789956447995160058
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789956447995160057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1789956447995160057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1789956447995160058}
+  - component: {fileID: 1789956447995160059}
+  m_Layer: 0
+  m_Name: "I2Languages"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1789956447995160059
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789956447995160057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b16eda0cfb112492f363ca7e5c3188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Google_WebServiceURL: "https:\x2f\x2fscript.google.com\x2fmacros\x2fs\x2fAKfycbyr7vN2BRmZJKqJL977AHIR-r9RAbG5FIHkUH-5O3_-pJORc-8\x2fexec"
+  Google_SpreadsheetKey: "1MyE0aOpGYqxfPoqPIOgQp2K6lRkXrln76QBqW063pw0"
+  Google_SpreadsheetName: "I2Loc Tank Buddies Localization"
+  Google_LastUpdatedVersion: "1510894416569"
+  GoogleUpdateFrequency: 1
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: "BACK"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BACK"
+    - "ZUR\u00DCCK"
+    - "\u8FD4\u56DE"
+    - "\u8FD4\u56DE"
+    - "KEMBALI"
+    - "ARRI\u00C8RE"
+    - "\u623B\u308B"
+    - "ESPALDA"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "LANGUAGE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "LANGUAGE"
+    - "SPRACHE"
+    - "\u8A9E\u8A00"
+    - "\u8BED\u8A00"
+    - "BAHASA"
+    - "LA LANGUE"
+    - "\u8A00\u8A9E"
+    - "IDIOMA"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "OK"
+    TermType: 0
+    Description: 
+    Languages:
+    - "OK"
+    - "OK"
+    - "\u597D"
+    - "\u597D"
+    - "baik"
+    - "D'accord"
+    - "[OK]"
+    - "DE ACUERDO"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Coin"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Coin"
+    - "M\u00FCnze"
+    - "\u786C\u5E63"
+    - "\u786C\u5E01"
+    - "Koin"
+    - "Pi\u00E8ce de monnaie"
+    - "\u30B3\u30A4\u30F3"
+    - "Acu\u00F1ar"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "CONTINUE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "CONTINUE?"
+    - "WEITER?"
+    - "\u7E7C\u7E8C?"
+    - "\u7EE7\u7EED?"
+    - "LANJUTKAN?"
+    - "CONTINUER?"
+    - "\u7D9A\u3051\u308B?"
+    - "CONTINUAR?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "New Mission in {0}"
+    TermType: 0
+    Description: 
+    Languages:
+    - "New Mission in {0}"
+    - "Neue Mission in {0}"
+    - "{0}\u6709\u65B0\u4F7F\u547D"
+    - "{0}\u6709\u65B0\u4F7F\u547D"
+    - "Misi baru dalam {0}"
+    - "Nouvelle mission dans {0}"
+    - "\u65B0\u3057\u3044\u30DF\u30C3\u30B7\u30E7\u30F3\u307E\u3067\u3042\u3068{0}"
+    - "Misi\u00F3n nueva dentro de {0}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Are you sure"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Are you sure?"
+    - "Bist du sicher?"
+    - "\u78BA\u5B9A\u55CE?"
+    - "\u786E\u5B9A\u5417?"
+    - "Apakah Anda yakin?"
+    - "\u00CAtes-vous s\u00FBr?"
+    - "\u3044\u3044\u3067\u3059\u304B?"
+    - "Est\u00E1s seguro?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "NEW"
+    TermType: 0
+    Description: 
+    Languages:
+    - "NEW"
+    - "NEU"
+    - "\u65B0"
+    - "\u65B0"
+    - "BARU"
+    - "NOUVEAU"
+    - "\u65B0\u3057\u3044"
+    - "NUEVO"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "AWESOME"
+    TermType: 0
+    Description: 
+    Languages:
+    - "AWESOME"
+    - "GENIAL"
+    - "\u8D85\u68D2"
+    - "\u8D85\u68D2"
+    - "ASIK"
+    - "IMPRESSIONNANT"
+    - "\u30A4\u30A4\u306D"
+    - "INCRE\u00CDBLE"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "USE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "USE"
+    - "BENUTZEN"
+    - "\u4F7F\u7528"
+    - "\u4F7F\u7528"
+    - "GUNAKAN"
+    - "UTILISATION"
+    - "\u4F7F\u3046"
+    - "UTILIZAR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BEST VALUE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BEST VALUE"
+    - "BESTER WERT"
+    - "\u6700\u8D85\u503C"
+    - "\u6700\u8D85\u503C"
+    - "NILAI TERBAIK"
+    - "MEILLEURE VALEUR"
+    - "\u30D9\u30B9\u30C8\u30D0\u30EA\u30E5\u30FC"
+    - "MEJOR VALOR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "COINS SHOP"
+    TermType: 0
+    Description: 
+    Languages:
+    - "COINS SHOP"
+    - "COINS SHOP"
+    - "\u786C\u5E63\u5546\u5E97"
+    - "\u786C\u5E01\u5546\u5E97"
+    - "TOKO KOIN"
+    - "Magasin de pi\u00E8ces"
+    - "\u30B3\u30A4\u30F3\u5C4B"
+    - "MONEDAS SHOP"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "COOL"
+    TermType: 0
+    Description: 
+    Languages:
+    - "COOL"
+    - "COOL"
+    - "\u9177"
+    - "\u9177"
+    - "KEREN"
+    - "COOL"
+    - "\u30A4\u30A4\u306D"
+    - "GUAY"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "LEVEL"
+    TermType: 0
+    Description: 
+    Languages:
+    - "LEVEL"
+    - "NIVEAU"
+    - "\u6C34\u5E73"
+    - "\u6C34\u5E73"
+    - "LEVEL"
+    - "NIVEAU"
+    - "\u30EC\u30D9\u30EB"
+    - "NIVEL"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "MAX LEVEL"
+    TermType: 0
+    Description: 
+    Languages:
+    - "MAX LEVEL"
+    - "MAXIMALES LEVEL"
+    - "MAX LEVEL"
+    - "MAX LEVEL"
+    - "LEVEL MAKSIMAL"
+    - "NIVEAU MAXIMUM"
+    - "MAX LEVEL"
+    - "M\u00C1XIMO NIVEL"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Restore Purchases"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Restore Purchases"
+    - "wiederherstellen K\u00E4ufe"
+    - "\u6062\u5FA9\u8CFC\u8CB7"
+    - "\u6062\u590D\u8D2D\u4E70"
+    - "Mengembalikan pembelian"
+    - "restaurer Achats"
+    - "\u8CFC\u5165\u3057\u305F\u7269\u3092\u5FA9\u5143\u3059\u308B"
+    - "Restaurar las compras"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "NEW BEST"
+    TermType: 0
+    Description: 
+    Languages:
+    - "NEW BEST "
+    - "NEW BEST"
+    - "\u6700\u65B0\u9AD8\u7A4D\u5206"
+    - "\u6700\u65B0\u9AD8\u79EF\u5206"
+    - "SKOR TERBAIK BARU"
+    - "MEILLEUR NOUVEAU"
+    - "\u65B0\u3057\u3044\u30D9\u30B9\u30C8"
+    - "NUEVO MEJOR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Best: {0}"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Best: {0}"
+    - "Beste: {0}"
+    - "\u6700\u597D\uFF1A{0}"
+    - "\u6700\u597D\uFF1A{0}"
+    - "Skor terbaik: {0}"
+    - "Mieux: {0}"
+    - "\u30D9\u30B9\u30C8\u30B9\u30B3\u30A2\uFF1A{0}"
+    - "Mejor: {0}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "SHARE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "SHARE"
+    - "TEILEN"
+    - "\u5206\u4EAB"
+    - "\u5206\u4EAB"
+    - "BAGIKAN"
+    - "PARTAGER"
+    - "\u30B7\u30A7\u30A2"
+    - "COMPARTIR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Double earnings"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Double earnings?"
+    - "Doppelte Punkte"
+    - "\u96D9\u91CD\u6536\u76CA?"
+    - "\u53CC\u91CD\u6536\u76CA?"
+    - "Gandakan penghasilan?"
+    - "Double gains?"
+    - "\u7A3C\u3044\u3060\u7269\u3092\u500D\u306B\u3059\u308B?"
+    - "Ganancia doble?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Follow Kiseki Games from Settings to stay updated with the latest
+    news"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Follow Kiseki Games from Settings to stay updated with the latest
+    news"
+    - "Folge Kiseki Games und erfahre Aktuelles. Gehe hierf\u00FCr zu Einstellungen"
+    - "\u5F9E\u8A2D\u7F6E\u88E1\u8FFD\u8E64Kiseki Games\u5F97\u5230\u6700\u65B0\u6D88\u606F"
+    - "\u4ECE\u8BBE\u7F6E\u91CC\u8FFD\u8E2AKiseki Games\u5F97\u5230 \u6700\u65B0\u6D88\u606F"
+    - "Ikuti Kiseki Games dari Settings untuk tetap update dengan berita
+    terbaru"
+    - "Suivez Kiseki Games, apr\u00E8s avoir configur\u00E9 le suivi dans Param\u00E8tres,
+    pour obtenir toutes les actualit\u00E9s"
+    - "\u6700\u65B0\u30CB\u30E5\u30FC\u30B9\u306E\u70BA\u306B\u8A2D\u5B9A\u3067Kiseki Games\u3092\u30D5\u30A9\u30ED\u30FC\u3057\u3088\u3046\u305C\uFF01"
+    - "Sigue a Kiseki Games para estar al tanto de las \u00FAltimas novedades"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Leaderboard"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Leaderboard"
+    - "Bestenliste"
+    - "\u6392\u884C\u699C"
+    - "\u6392\u884C\u699C"
+    - "Leaderboard"
+    - "Classement"
+    - "\u30E9\u30F3\u30AD\u30F3\u30B0"
+    - "Clasificaci\u00F3n"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Credits"
+    TermType: 0
+    Description: 
+    Languages:
+    - "CREDITS"
+    - "KREDITE"
+    - "\u5B78\u5206"
+    - "\u5B66\u5206"
+    - "KREDIT"
+    - "CR\u00C9DITS"
+    - "\u88FD\u4F5C\u8005"
+    - "CR\u00C9DITOS"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Contact Us"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Contact Us"
+    - "Kontaktiere Uns"
+    - "\u806F\u7E6B\u6211\u5011"
+    - "\u8054\u7CFB\u6211\u4EEC"
+    - "Hubungi Kami"
+    - "Contactez Nous"
+    - "\u304A\u554F\u3044\u5408\u308F\u305B"
+    - "Cont\u00E1ctenos"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BUY"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BUY"
+    - "KAUFEN"
+    - "\u8CFC\u8CB7"
+    - "\u8D2D\u4E70"
+    - "BELI"
+    - "ACHETER"
+    - "\u8CFC\u5165"
+    - "COMPRAR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "New missions available"
+    TermType: 0
+    Description: 
+    Languages:
+    - "New missions available!"
+    - "Neue Missionen verf\u00FCgbar!"
+    - "\u65B0\u4EFB\u52D9\u6311\u6230\uFF01"
+    - "\u65B0\u4EFB\u52A1\u6311\u6218\uFF01"
+    - "Misi Baru tersedia! "
+    - "De nouvelles missions sont disponibles ! "
+    - "\u65B0\u3057\u3044\u30DF\u30C3\u30B7\u30E7\u30F3\u304C\u6765\u305F\uFF01"
+    - "\u00A1Acaban de salir misiones nuevas! "
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Rate us"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Rate us"
+    - "Bewerte uns"
+    - "\u7D66\u6211\u5011\u8A55\u5206"
+    - "\u8BC4\u4EF7\u6211\u4EEC"
+    - "Nilai kami"
+    - "\u00C9valuez-nous"
+    - "\u8A55\u4FA1\u3057\u307E\u3059\u304B?"
+    - "Calif\u00EDcanos"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Collect {0} x {1}. {2} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Collect {0} x {1}. {2} to go"
+    - "Sammle {0} x {1}. Noch {2}"
+    - "\u6536\u96C6 {0}x {1}. \u9084\u9700\u8981 {2} "
+    - "\u6536\u96C6 {0}x {1}. \u8FD8\u9700\u8981 {2}"
+    - "Kumpulkan {0} x {1}. {2} lagi"
+    - "Collectez {0} {1}. Encore {2}"
+    - "{0}x {1}\u3092\u96C6\u3081\u308B\u3002\u3042\u3068{2}\u3067\u3059"
+    - "Recoge x {0} {1}. Te faltan {2}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Double Coins"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Double Coins?"
+    - "Doppelte Coins?"
+    - "\u96D9\u91CD\u786C\u5E63?"
+    - "\u53CC\u91CD\u786C\u5E01?"
+    - "Gandakan Koin?"
+    - "Double Pi\u00E8ces?"
+    - "\u30B3\u30A4\u30F3\u3092\u500D\u306B\u3059\u308B?"
+    - "Doble moneda?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "You reached"
+    TermType: 0
+    Description: 
+    Languages:
+    - "You reached"
+    - "Du hast erreicht"
+    - "\u5F88\u597D\u60A8\u5DF2\u7D93\u9054\u5230"
+    - "\u5F88\u597D\u60A8\u5DF2\u7ECF\u8FBE\u5230"
+    - "Anda mencapai"
+    - "Vous avez parcouru"
+    - "\u9054\u6210\uFF1A"
+    - "Alcanzaste"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Collect Free Gift"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Collect Free Gift"
+    - "Sammle ein Gratisgeschenk"
+    - "\u6536\u96C6\u514D\u8CBB\u79AE\u7269"
+    - "\u6536\u96C6\u514D\u8D39\u793C\u7269"
+    - "Dapatkan Hadiah Gratis"
+    - "R\u00E9cup\u00E9rez un cadeau gratuit"
+    - "\u7121\u6599\u30AE\u30D5\u30C8\u3092\u96C6\u3081\u308B"
+    - "Recoge regalos gratis"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Next Free Gift in {0}"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Next Free Gift in {0}"
+    - "N\u00E4chstes Gratisgeschenk in {0}"
+    - "\u8DDD\u96E2\u4E0B\u6B21\u514D\u8CBB\u79AE\u7269\u6642\u9593 {0}"
+    - "\u8DDD\u79BB\u4E0B\u6B21\u514D\u8D39\u793C\u7269\u65F6\u95F4 {0}"
+    - "Hadiah Gratis berikutnya dalam {0}"
+    - "Prochain cadeau gratuit dans {0}"
+    - "\u3042\u3068 {0}\u3067\u7121\u6599\u30AE\u30D5\u30C8"
+    - "Pr\u00F3ximo regalo gratis en {0}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Free Gift is available now"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Free Gift is available now"
+    - "Das Gratisgeschenk ist jetzt verf\u00FCgbar"
+    - "\u514D\u8CBB\u79AE\u7269\u6642\u9593\u5230\uFF0C\u5FEB\u4F86\u62FF"
+    - "\u514D\u8D39\u793C\u7269\u65F6\u95F4\u5230\uFF0C\u5FEB\u6765\u62FF"
+    - "Hadiah Gratis tersedia sekarang"
+    - "Un cadeau gratuit est disponible"
+    - "\u4ECA\u3001\u7121\u6599\u30AE\u30D5\u30C8\u3092\u3082\u3089\u3048\u307E\u3059"
+    - "Tienes disponible un regalo gratis"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Earn Free Coins"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Earn Free Coins"
+    - "Verdiene Gratis-Coins"
+    - "\u514D\u8CBB\u8CFA\u53D6\u786C\u5E63"
+    - "\u514D\u8D39\u8D5A\u53D6\u786C\u5E01"
+    - "Dapatkan Koin Gratis"
+    - "Gagnez des pi\u00E8ces gratuites"
+    - "\u7121\u6599\u30B3\u30A4\u30F3\u3092\u30B2\u30C3\u30C8"
+    - "Gana monedas gratis"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Sensitivity Level"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Sensitivity Level"
+    - "Empfindlichkeitsgrad"
+    - "\u654F\u611F\u7D1A\u6578"
+    - "\u654F\u611F\u7EA7\u6570"
+    - "Tingkat Sensitivitas"
+    - "Niveau de sensibilit\u00E9"
+    - "\u611F\u5EA6\u30EC\u30D9\u30EB"
+    - "Nivel de sensibilidad"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tutorial"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tutorial"
+    - "Lernprogramm"
+    - "\u6559\u7A0B"
+    - "\u6559\u7A0B"
+    - "Tutorial"
+    - "Didacticiel"
+    - "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB"
+    - "Tutorial"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Shadows Off"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Shadows Off"
+    - "Schatten Aus"
+    - "\u95DC\u9589\u5F71\u5B50"
+    - "\u5173\u95ED\u5F71\u5B50"
+    - "Tanpa Bayangan"
+    - "ombres Off"
+    - "\u30D0\u30C3\u30C6\u30EA\u30FC\u306E\u7BC0\u7D04\u306B"
+    - "sombras desactivadas"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Shadows On"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Shadows On"
+    - "Schatten auf"
+    - "\u958B\u555F\u5F71\u5B50"
+    - "\u5F00\u542F\u5F71\u5B50"
+    - "Dengan Bayangan"
+    - "ombres sur"
+    - "\u304B\u3089\u30D0\u30C3\u30C6\u30EA\u30FC\u30BB\u30FC\u30D3\u30F3\u30B0"
+    - "En las sombras"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Special thanks to"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Special thanks to:"
+    - "Besonderer Dank an:"
+    - "\u7279\u5225\u611F\u8B1D"
+    - "\u7279\u522B\u611F\u8C22"
+    - "Terima kasih khusus kepada:"
+    - "Un grand merci \u00E0:"
+    - "\u306B\u611F\u8B1D\u3057\u307E\u3059\uFF1A"
+    - "Un agradecimiento especial a:"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Try Again"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Try Again"
+    - "Versuch Es Noch Einmal"
+    - "\u518D\u8A66\u4E00\u6B21"
+    - "\u518D\u8BD5\u4E00\u6B21"
+    - "Coba Lagi"
+    - "R\u00E9essayer"
+    - "\u518D\u8A66\u884C\u3059\u308B"
+    - "Int\u00E9ntalo De Nuevo"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tap and Hold"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tap and Hold"
+    - "Tippe und Halte"
+    - "\u6309\u8457\u8DD1"
+    - "\u6309\u7740\u8DD1"
+    - "Tekan dan Tahan"
+    - "Touchez et maintenez"
+    - "\u9577\u62BC\u3057"
+    - "Toca y sostiene"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Keep Holding"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Keep Holding"
+    - "Halte Gedr\u00FCckt"
+    - "\u7E7C\u7E8C\u6309"
+    - "\u7EE7\u7EED\u6309"
+    - "Tetap Tahan"
+    - "Maintenez votre doigt"
+    - "\u62BC\u3057\u7D9A\u3051\u308B"
+    - "Mant\u00E9n sostenido"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Release"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Release"
+    - "Lasse los"
+    - "\u653E\u958B"
+    - "\u653E\u5F00"
+    - "Lepas"
+    - "Rel\u00E2chez"
+    - "\u30EA\u30EA\u30FC\u30B9"
+    - "Soltar"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Nice"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nice!"
+    - "Nett!"
+    - "\u5F88\u597D"
+    - "\u5F88\u597D"
+    - "Bagus!"
+    - "Agr\u00E9able!"
+    - "\u7D20\u6575\uFF01"
+    - "\u00A1Bonito!"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "USE NOW"
+    TermType: 0
+    Description: 
+    Languages:
+    - "USE NOW"
+    - "JETZT BENUTZEN"
+    - "\u73FE\u5728\u4F7F\u7528"
+    - "\u73B0\u5728\u4F7F\u7528"
+    - "GUNAKAN SEKARANG"
+    - "UTILISER MAINTENANT"
+    - "\u73FE\u5728\u4F7F\u7528\u3055"
+    - "USAR AHORA"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "PLAY"
+    TermType: 0
+    Description: 
+    Languages:
+    - "PLAY"
+    - "ABSPIELEN"
+    - "\u958B\u59CB"
+    - "\u5F00\u59CB"
+    - "MAIN"
+    - "JOUER"
+    - "\u30D7\u30EC\u30A4"
+    - "JUGAR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Best: {0}m"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Best: {0}m"
+    - "Beste: {0}m"
+    - "\u6700\u597D\uFF1A{0}\u7C73"
+    - "\u6700\u597D\uFF1A{0}\u7C73"
+    - "Terbaik: {0}m"
+    - "Mieux: {0}m"
+    - "\u30D9\u30B9\u30C8\u30B9\u30B3\u30A2\uFF1A{0}m"
+    - "Mejor: {0}m"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "PAUSED"
+    TermType: 0
+    Description: 
+    Languages:
+    - "PAUSED"
+    - "pausiert"
+    - "\u66AB\u505C"
+    - "\u6682\u505C"
+    - "PAUSED"
+    - "mis en pause"
+    - "\u4E00\u6642\u505C\u6B62"
+    - "En pausa"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Not enough coins"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Not enough coins"
+    - "Nicht genug Coins"
+    - "\u6C92\u6709\u8DB3\u5920\u7684\u786C\u5E63"
+    - "\u6CA1\u6709\u8DB3\u591F\u7684\u786C\u5E01"
+    - "Tidak cukup koin"
+    - "Pas assez de pi\u00E8ces"
+    - "\u30B3\u30A4\u30F3\u304C\u8DB3\u308A\u306A\u3044"
+    - "No hay suficientes monedas"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Not enough bolts"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Not enough bolts"
+    - "Nicht genug Blitze"
+    - "\u87BA\u6BCD\u4E0D\u5920"
+    - "\u87BA\u6BCD\u4E0D\u591F"
+    - "Tidak cukup baut"
+    - "Boulons insuffisants"
+    - "\u30DC\u30EB\u30C8\u304C\u8DB3\u308A\u307E\u305B\u3093"
+    - "No tienes suficientes tornillos"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "UNLOCK"
+    TermType: 0
+    Description: 
+    Languages:
+    - "UNLOCK"
+    - "SCHALTE"
+    - "\u89E3\u9396"
+    - "\u89E3\u9501"
+    - "BUKA"
+    - "D\u00C9BLOQUER"
+    - "\u30A2\u30F3\u30ED\u30C3\u30AF"
+    - "DESBLOQUEAR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Double coins for all Free Gifts"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Double coins for all Free Gifts"
+    - "Doppelte Coins f\u00FCr alle Gratisgeschenke"
+    - "\u96D9\u500D\u786C\u5E63\u7D66\u6240\u6709\u514D\u8CBB\u79AE\u7269"
+    - "\u53CC\u500D\u786C\u5E01\u7ED9\u6240\u6709\u514D\u8D39\u793C\u7269"
+    - "Gandakan koin untuk semua Hadiah Gratis"
+    - "Nombre de pi\u00E8ces doubl\u00E9 pour chaque cadeau gratuit"
+    - "\u5168\u3066\u306E\u7121\u6599\u30AE\u30D5\u30C8\u3067\u30B3\u30A4\u30F3\u30922\u500D\u306B"
+    - "Doble de monedas para todos los regalos gratis"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Automatically continue for free forever"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Continue for free forever"
+    - "Spiele kostenlos endlos weiter"
+    - "\u514D\u8CBB\u5FA9\u6D3B"
+    - "\u514D\u8D39\u590D\u6D3B"
+    - "Dapatkan Continue gratis untuk selamanya"
+    - "Continuer gratuitement pour toujours"
+    - "\u305A\u3063\u3068\u7121\u6599\u3067\u904A\u3073\u7D9A\u3051\u308B"
+    - "Contin\u00FAas gratis para siempre"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "More Games"
+    TermType: 0
+    Description: 
+    Languages:
+    - "More Games"
+    - "Mehr Spiele"
+    - "\u66F4\u591A\u904A\u6232"
+    - "\u66F4\u591A\u6E38\u620F"
+    - "Game Lainnya"
+    - "Plus de jeux"
+    - "\u4ED6\u306E\u30B2\u30FC\u30E0"
+    - "M\u00E1s juegos"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "{0}m"
+    TermType: 0
+    Description: 
+    Languages:
+    - "{0}m"
+    - "{0}m"
+    - "{0}\u7C73"
+    - "{0}\u7C73"
+    - "{0}m"
+    - "{0}m"
+    - "{0}m"
+    - "{0}m"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "{0}s"
+    TermType: 0
+    Description: 
+    Languages:
+    - "{0}s"
+    - "{0}s"
+    - "{0}\u79D2"
+    - "{0}\u79D2"
+    - "{0}s"
+    - "{0}s"
+    - "{0}s"
+    - "{0}s"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Triple Coins"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Triple Coins?"
+    - "Dreifach M\u00FCnzen?"
+    - "\u4E09\u500D\u786C\u5E63?"
+    - "\u4E09\u500D\u786C\u5E01?"
+    - "Tiga kali Koin?"
+    - "Triple Pi\u00E8ces?"
+    - "\u30B3\u30A4\u30F3\u3092\uFF13\u500D\u306B\u3059\u308B?"
+    - "Triple Moneda?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Random"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Random"
+    - "Zuf\u00E4llig"
+    - "\u96A8\u6A5F"
+    - "\u968F\u673A"
+    - "Acak"
+    - "Al\u00E9atoire"
+    - "\u30E9\u30F3\u30C0\u30E0"
+    - "Aleatorio"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "SKIP"
+    TermType: 0
+    Description: 
+    Languages:
+    - "SKIP?"
+    - "\u00DCBERSPRINGEN?"
+    - "\u8DF3\u904E?"
+    - "\u8DF3\u8FC7?"
+    - "LEWATKAN?"
+    - "SAUTER?"
+    - "\u30B9\u30AD\u30C3\u30D7\uFF1F"
+    - "\u00BFOMITIR?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Bonus"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Bonus:"
+    - "Bonus:"
+    - "\u734E\u91D1:"
+    - "\u5956\u91D1:"
+    - "Bonus:"
+    - "Prime:"
+    - "\u30DC\u30FC\u30CA\u30B9:"
+    - "Prima:"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "TANK"
+    TermType: 0
+    Description: 
+    Languages:
+    - "TANK"
+    - "TANK"
+    - "\u5766\u514B"
+    - "\u5766\u514B"
+    - "TANK"
+    - "TANK"
+    - "TANK"
+    - "TANK"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BUDDIES"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BUDDIES"
+    - "BUDDIES"
+    - "\u5925\u4F34"
+    - "\u4F19\u4F34"
+    - "BUDDIES"
+    - "BUDDIES"
+    - "BUDDIES"
+    - "BUDDIES"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tank Buddies"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tank Buddies"
+    - "Tank Buddies"
+    - "\u5766\u514B\u5925\u4F34"
+    - "\u5766\u514B\u4F19\u4F34"
+    - "Tank Buddies"
+    - "Tank Buddies"
+    - "Tank Buddies"
+    - "Tank Buddies"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Rapid Fire"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Rapid Fire"
+    - "Schnellfeuer"
+    - "\u718A\u718A\u5927\u706B"
+    - "\u718A\u718A\u5927\u706B"
+    - "Tembakan beruntun"
+    - "Tir rapide"
+    - "\u901F\u5C04"
+    - "Fuego r\u00E1pido"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Shield"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Shield"
+    - "Schild"
+    - "\u80FD\u91CF\u7F69"
+    - "\u80FD\u91CF\u7F69"
+    - "Perisai"
+    - "Bouclier"
+    - "\u30A8\u30CD\u30EB\u30AE\u30FC\u30B7\u30FC\u30EB\u30C9"
+    - "Escudo"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Magnet"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Magnet"
+    - "Magnet"
+    - "\u78C1\u9435"
+    - "\u78C1\u94C1"
+    - "Magnet"
+    - "Aimant"
+    - "\u78C1\u77F3"
+    - "Im\u00E1n"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Heal"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Heal"
+    - "Heilen"
+    - "\u7652\u5408"
+    - "\u6108\u5408"
+    - "Penyembuh"
+    - "Gu\u00E9rir"
+    - "\u7652\u3057\u307E\u3059"
+    - "Sanar"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "WARNING"
+    TermType: 0
+    Description: 
+    Languages:
+    - "WARNING!!"
+    - "WARNUNG!!"
+    - "\u8B66\u544A!!"
+    - "\u8B66\u544A!!"
+    - "PERINGATAN!!"
+    - "ATTENTION!!"
+    - "\u8B66\u544A!!"
+    - "ADVERTENCIA!!"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "WELCOME BACK"
+    TermType: 0
+    Description: 
+    Languages:
+    - "WELCOME BACK!"
+    - "WILLKOMMEN ZUR\u00DCCK!"
+    - "\u6B61\u8FCE\u56DE\u4F86\uFF01"
+    - "\u6B22\u8FCE\u56DE\u6765\uFF01"
+    - "SELAMAT DATANG KEMBALI!"
+    - "NOUS SALUONS LE RETOUR!"
+    - "\u304A\u5E30\u308A\u306A\u3055\u3044\uFF01"
+    - "\u00A1DAR UNA BUENA ACOGIDA!"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "You were away for"
+    TermType: 0
+    Description: 
+    Languages:
+    - "You were away for"
+    - "Sie waren weg f\u00FCr"
+    - "\u4F60\u8D70\u4E86"
+    - "\u4F60\u8D70\u4E86"
+    - "Anda meninggalkan game selama"
+    - "Vous \u00E9tiez absent pour"
+    - "\u3042\u306A\u305F\u306F\u306E\u305F\u3081\u306B\u96E2\u308C\u3066\u3044\u307E\u3057\u305F"
+    - "Usted no estaba de"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Max"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Max"
+    - "Max"
+    - "\u99AC\u514B\u65AF"
+    - "\u9A6C\u514B\u65AF"
+    - "MAKSIMUM"
+    - "max"
+    - "\u30DE\u30C3\u30AF\u30B9"
+    - "Max"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "POWERUPS"
+    TermType: 0
+    Description: 
+    Languages:
+    - "POWERUPS"
+    - "EINSCHALTEN"
+    - "\u80FD\u91CF\u7269"
+    - "\u80FD\u91CF\u7269"
+    - "POWERUPS"
+    - "MISES SOUS TENSION"
+    - "\u30D1\u30EF\u30FC\u30A2\u30C3\u30D7"
+    - "POWERUPS"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "SHOP"
+    TermType: 0
+    Description: 
+    Languages:
+    - "SHOP"
+    - "GESCH\u00C4FT"
+    - "\u5E97"
+    - "\u5E97"
+    - "TOKO"
+    - "BOUTIQUE"
+    - "\u30B7\u30E7\u30C3\u30D7"
+    - "TIENDA"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "SETTINGS"
+    TermType: 0
+    Description: 
+    Languages:
+    - "SETTINGS"
+    - "EINSTELLUNGEN"
+    - "\u8A2D\u7F6E"
+    - "\u8BBE\u7F6E"
+    - "PENGATURAN"
+    - "PARAM\u00C8TRES"
+    - "\u8A2D\u5B9A"
+    - "AJUSTES"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BATTLE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BATTLE"
+    - "SCHLACHT"
+    - "\u6230\u9B25"
+    - "\u6218\u6597"
+    - "PERTARUNGAN"
+    - "BATAILLE"
+    - "\u6226\u3044"
+    - "BATALLA"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Collect {0} x Coins with Magnet Power Up. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Collect {0} x Coins with Magnet Power Up. {1} to go"
+    - "Sammle {0} x Coins mit dem Magnet-Power-up. Noch {1}"
+    - "\u6536\u96C6{0}x \u786C\u5E63\u52A0\u78C1\u9435\u529F\u80FD\u5347\u7D1A\u3002\u9084\u9700\u8981 {1}"
+    - "\u6536\u96C6{0}x \u786C\u5E01\u52A0\u78C1\u94C1\u529F\u80FD\u5347\u7EA7\u3002\u8FD8\u9700\u8981 {1}"
+    - "Kumpulkan {0} x Koin dengan Power Up Magnet. {1} lagi"
+    - "Collectez {0} pi\u00E8ces avec le booster Aimant. Encore {1}"
+    - "\u30DE\u30B0\u30CD\u30C3\u30C8\u30D1\u30EF\u30FC\u30A2\u30C3\u30D7\u3067{0}x\u306E\u30B3\u30A4\u30F3\u3092\u96C6\u3081\u308B\u3002\u3042\u3068{1}\u500B\u3067\u3059"
+    - "Recoge x {0} monedas con el power-up Im\u00E1n. Te faltan {1}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "PRESTIGE"
+    TermType: 0
+    Description: 
+    Languages:
+    - "PRESTIGE?"
+    - "PRESTIGE?"
+    - "\u8072\u671B\uFF1F"
+    - "\u58F0\u671B\uFF1F"
+    - "PRESTIGE?"
+    - "PRESTIGE?"
+    - "PRESTIGE\uFF1F"
+    - "\u00BFPRESTIGIO?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BOLTS"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BOLTS"
+    - "BLITZE"
+    - "\u87BA\u6BCD"
+    - "\u87BA\u6BCD"
+    - "BAUT"
+    - "BOULONS"
+    - "\u30DC\u30EB\u30C8"
+    - "TIENES"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "COINS"
+    TermType: 0
+    Description: 
+    Languages:
+    - "COINS"
+    - "COINS"
+    - "\u786C\u5E63"
+    - "\u786C\u5E01"
+    - "KOIN"
+    - "PI\u00C8CES DE MONNAIE"
+    - "\u30B3\u30A4\u30F3"
+    - "MONEDAS"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "GAME OVER"
+    TermType: 0
+    Description: 
+    Languages:
+    - "GAME OVER"
+    - "SPIEL IST AUS"
+    - "\u904A\u6232\u7D50\u675F"
+    - "\u6E38\u620F\u7ED3\u675F"
+    - "GAME OVER"
+    - "JEU TERMIN\u00C9"
+    - "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC"
+    - "JUEGO TERMINADO"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "EXTRA REWARDS"
+    TermType: 0
+    Description: 
+    Languages:
+    - "EXTRA REWARDS"
+    - "EXTRA REWARDS"
+    - "\u63D0\u4F9B\u984D\u5916\u7684\u56DE\u994B"
+    - "\u63D0\u4F9B\u989D\u5916\u7684\u56DE\u9988"
+    - "HADIAH EXTRA"
+    - "EXTRA R\u00C9COMPENSES"
+    - "EXTRA\u30EA\u30EF\u30FC\u30C9"
+    - "premios adicionales"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "CANCEL"
+    TermType: 0
+    Description: 
+    Languages:
+    - "CANCEL"
+    - "STORNIEREN"
+    - "\u53D6\u6D88"
+    - "\u53D6\u6D88"
+    - "BATAL"
+    - "ANNULER"
+    - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+    - "CANCELAR"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Release to shoot your charged up Special Attack"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Release to shoot your charged up Special Attack"
+    - "Lass los, um deinen aufgeladenen Spezialangriff zu schie\u00DFen"
+    - "\u9B06\u624B\u91CB\u653E\u53EF\u767C\u5C04\u5145\u96FB\u7279\u653B"
+    - "\u677E\u624B\u91CA\u653E\u53EF\u53D1\u5C04\u5145\u7535\u7279\u653B"
+    - "Lepaskan jari untuk menembak Special Charge"
+    - "l\u00E2chez pour lancer votre attaque sp\u00E9ciale charg\u00E9e"
+    - "\u30EA\u30EA\u30FC\u30B9\u3057\u3066\u30C1\u30E3\u30FC\u30B8\u3057\u305F\u30B9\u30DA\u30B7\u30E3\u30EB\u30A2\u30BF\u30C3\u30AF\u3092\u767A\u5C04"
+    - "Suelta para disparar la carga de tu Ataque especial"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tip: Release to shoot your charged up Special Attack"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tip: Release to shoot your charged up Special Attack"
+    - "Tipp: Lass los, um deinen aufgeladenen Spezialangriff zu schie\u00DFen"
+    - "\u63D0\u793A\uFF1A\u9B06\u624B\u91CB\u653E\u53EF\u767C\u5C04\u5145\u96FB\u7279\u653B"
+    - "\u63D0\u793A\uFF1A\u677E\u624B\u91CA\u653E\u53EF\u53D1\u5C04\u5145\u7535\u7279\u653B"
+    - "Tip: Lepaskan jari untuk menembak Special Charge"
+    - "Astuce : l\u00E2chez pour lancer votre attaque sp\u00E9ciale charg\u00E9e"
+    - "\u30D2\u30F3\u30C8: \u30EA\u30EA\u30FC\u30B9\u3057\u3066\u30C1\u30E3\u30FC\u30B8\u3057\u305F\u30B9\u30DA\u30B7\u30E3\u30EB\u30A2\u30BF\u30C3\u30AF\u3092\u767A\u5C04"
+    - "Consejo: Suelta para disparar la carga de tu Ataque especial"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tip: You can change the control settings from Settings screen"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tip: You can change the control settings from Settings screen"
+    - "Tipp: Du kannst die Steuerungseinstellungen vom Einstellungsbildschirm
+    aus \u00E4ndern"
+    - "\u63D0\u793A\uFF1A\u5F9E\u8A2D\u7F6E\u7192\u5E55\u53EF\u66F4\u6539\u63A7\u5236\u8A2D\u5B9A"
+    - "\u63D0\u793A\uFF1A\u4ECE\u8BBE\u7F6E\u8367\u5E55\u53EF\u66F4\u6539\u63A7\u5236\u8BBE\u5B9A"
+    - "Tip: Anda dapat mengubah Tingkat Sensitivitas kontrol dari Settings"
+    - "Astuce : vous pouvez changer les r\u00E9glages des contr\u00F4les sur l'\u00E9cran
+    R\u00E9glages"
+    - "\u30D2\u30F3\u30C8: [\u8A2D\u5B9A]\u753B\u9762\u3067\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u8A2D\u5B9A\u3092\u5909\u66F4\u3067\u304D\u307E\u3059"
+    - "Consejo: Puedes cambiar los ajustes del control en la pantalla Ajustes"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Each time you prestige you will restart your progress with stronger
+    tanks"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Each time you prestige you will restart your progress with stronger
+    tanks"
+    - "Immer, wenn du aufsteigst, startet dein Fortschritt mit st\u00E4rkeren
+    Panzern von vorn"
+    - "\u6BCF\u6B21\u63D0\u5347\u90FD\u8B93\u5766\u514B\u589E\u5F37\u80FD\u91CF\u91CD\u65B0\u958B\u59CB\u9032\u5EA6"
+    - "\u6BCF\u6B21\u63D0\u5347\u90FD\u8BA9\u5766\u514B\u589E\u5F3A\u80FD\u91CF\u91CD\u65B0\u5F00\u59CB\u8FDB\u5EA6"
+    - "Setiap kali Anda prestise Anda akan restart kemajuan Anda dengan
+    tank kuat"
+    - "Chaque fois que vous progressez, vous recommencez avec de meilleurs
+    chars."
+    - "\u30D7\u30EC\u30B9\u30C6\u30FC\u30B8\u3059\u308B\u305F\u3073\u306B\u3001\u3055\u3089\u306B\u5F37\u3044\u6226\u8ECA\u3092\u4F7F\u3063\u3066\u30B2\u30FC\u30E0\u3092\u30EA\u30B9\u30BF\u30FC\u30C8\u3057\u3001\u30D7\u30EC\u30A4\u3092\u7D9A\u3051\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+    - "Al obtener prestigio, reinicias tu progreso con tanques m\u00E1s poderosos."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "LEVEL {0} is required to Prestige"
+    TermType: 0
+    Description: 
+    Languages:
+    - "LEVEL {0} is required to Prestige"
+    - "LEVEL {0} ist n\u00F6tig, um aufzusteigen"
+    - "\u5FC5\u9700\u63D0\u5347\u624D\u80FD\u73A9\u7B2C{0}\u95DC"
+    - "\u5FC5\u9700\u63D0\u5347\u624D\u80FD\u73A9\u7B2C{0}\u5173"
+    - "LEVEL {0} diperlukan untuk Prestige"
+    - "Le niveau {0} est requis pour Prestige"
+    - "\u30D7\u30EC\u30B9\u30C6\u30FC\u30B8\u306B\u306F\u30EC\u30D9\u30EB {0} \u304C\u5FC5\u8981\u3067\u3059"
+    - "Para obtener Prestigio se requiere el nivel {0}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "You have prestiged {0} times."
+    TermType: 0
+    Description: 
+    Languages:
+    - "You have prestiged {0} times."
+    - "Du bist {0}-mal aufgestiegen."
+    - "\u4F60\u5DF2\u63D0\u5347{0}\u6B21."
+    - "\u4F60\u5DF2\u63D0\u5347{0}\u6B21."
+    - "Anda telah prestiged {0} kali."
+    - "Vous avez atteint le niveau prestige {0} fois."
+    - "{0} \u56DE\u30D7\u30EC\u30B9\u30C6\u30FC\u30B8\u3057\u3066\u3044\u307E\u3059\u3002"
+    - "Has obtenido prestigio {0} veces."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Collect {0} x {1} Power Up. {2} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Collect {0} x {1} Power Up. {2} to go"
+    - "Sammle {0} x {1}-Power-up. Noch {2}"
+    - "\u6536\u96C6{0}x{1}\u80FD\u91CF\u7269\u3002\u9084\u9700{2}\u500B"
+    - "\u6536\u96C6{0}x{1}\u80FD\u91CF\u7269\u3002\u8FD8\u9700{2}\u4E2A"
+    - "Kumpulkan {0} x Power Up {1}. {2} lagi"
+    - "R\u00E9coltez {0} boosters {1}. {2} restant(s)"
+    - "{1} \u30D1\u30EF\u30FC\u30A2\u30C3\u30D7 x {0} \u3092\u7372\u5F97\u3002\u3042\u3068 {2}"
+    - "Junta {0} x {1} power ups. A\u00FAn quedan {2}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Play {0}s with at least {1}% health"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Play {0}s with at least {1}% health"
+    - "Spiele {0} Sek. mit mindestens {1} % Gesundheit"
+    - "\u7528\u81F3\u5C11{1}%\u5065\u5EB7\u73A9{0}s"
+    - "\u7528\u81F3\u5C11{1}%\u5065\u5EB7\u73A9{0}s"
+    - "Main {0} detik dengan setidaknya {1}% HP"
+    - "Jouez {0} s avec au moins {1}% de vie"
+    - "\u5C11\u306A\u304F\u3068\u3082 {1}% \u306E\u30D8\u30EB\u30B9\u3067 {0} \u79D2\u9593\u30D7\u30EC\u30A4"
+    - "Juega {0}s con al menos {1}% de salud"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Play {0}s without collecting Power Up"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Play {0}s without collecting Power Up"
+    - "Spiele {0} Sek., ohne Power-ups zu sammeln."
+    - "\u4E0D\u6536\u96C6\u80FD\u91CF\u7269\u73A9{0}s"
+    - "\u4E0D\u6536\u96C6\u80FD\u91CF\u7269\u73A9{0}s"
+    - "Main {0} detik tanpa mengambil Power Up"
+    - "Jouez {0} s sans r\u00E9colter de booster"
+    - "\u30D1\u30EF\u30FC\u30A2\u30C3\u30D7\u3092\u96C6\u3081\u305A\u306B {0} \u79D2\u9593\u30D7\u30EC\u30A4"
+    - "Juega {0}s sin juntar power ups"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Defeat {0} x enemies using Bomb explosion. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Defeat {0} x enemies using Bomb explosion. {1} to go"
+    - "Besiege {0} x Gegner durch Bombenexplosion. Noch {1}"
+    - "\u4F7F\u7528\u7832\u5F48\u6253\u6557{0}x\u6575\u4EBA\u3002\u9084\u9700{1}\u500B"
+    - "\u4F7F\u7528\u70AE\u5F39\u6253\u8D25{0}x\u654C\u4EBA\u3002\u8FD8\u9700{1}\u4E2A"
+    - "Kalahkan {0} x musuh dengan ledakan Bom. {1} lagi"
+    - "Battez {0} ennemis en utilisant des bombes. {1} restant(s)"
+    - "\u30DC\u30E0\u3092\u7206\u767A\u3055\u305B\u3066\u6575 x {0} \u3092\u9000\u6CBB\u3002\u3042\u3068 {1}"
+    - "Derrota a {0} enemigos utilizando bombas explosivas. A\u00FAn queda {1}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Summon {0} x Buddies. {2} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Summon {0} x Buddies. {2} to go"
+    - "Rufe {0} x Kameraden zusammen. Noch {2}"
+    - "\u53EC\u96C6{0}x\u5925\u4F34\u3002\u9084\u9700{2}\u500B"
+    - "\u53EC\u96C6{0}x\u4F19\u4F34\u3002\u8FD8\u9700{2}\u4E2A"
+    - "Panggil {0} x Teman. {1} lagi"
+    - "Rassemblez {0} potes. {2} restant(s)"
+    - "\u30D0\u30C7\u30A3 x {0} \u3092\u53EC\u96C6\u3002\u3042\u3068 {2}"
+    - "Convoca a {0} compa\u00F1eros. A\u00FAn quedan {2}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Defeat {0} x enemies. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Defeat {0} x enemies. {1} to go"
+    - "Besiege {0} x Gegner. Noch {1}"
+    - "\u6253\u6557{0}x\u6575\u4EBA\u3002\u9084\u9700{1}\u500B"
+    - "\u6253\u8D25{0}x\u654C\u4EBA\u3002\u8FD8\u9700{1}\u4E2A"
+    - "Kalahkan {0} x musuh secara total. {1} lagi"
+    - "Battez {0} ennemis. {1} restant(s)"
+    - "\u6575 x {0} \u3092\u9000\u6CBB\u3002\u3042\u3068 {1}"
+    - "Derrota a {0} enemigos. A\u00FAn queda {1}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Collect {0} x Bolts. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Collect {0} x Bolts. {1} to go"
+    - "Sammle {0} x Blitze. Noch {1}"
+    - "\u6536\u96C6{0}x\u87BA\u6BCD\u3002\u9084\u9700{1}\u500B"
+    - "\u6536\u96C6{0}x\u87BA\u6BCD\u3002\u8FD8\u9700{1}\u4E2A"
+    - "Kumpulkan {0} x Baut secara total. {1} lagi"
+    - "R\u00E9coltez {0} boulons. {1} restant(s)"
+    - "\u30DC\u30EB\u30C8 x {0} \u3092\u53CE\u96C6\u3002\u3042\u3068 {1} \u500B"
+    - "Junta {0} tornillos. A\u00FAn queda {1}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Defeat {0} x Bosses. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Defeat {0} x Bosses. {1} to go"
+    - "Besiege {0} x Bosse. Noch {1}"
+    - "\u6253\u6557{0}x\u8001\u5927\u3002\u9084\u9700{1}\u500B"
+    - "\u6253\u8D25{0}x\u8001\u5927\u3002\u8FD8\u9700{1}\u4E2A"
+    - "Kalahkan {0} x bos secara total. {1} lagi"
+    - "Battez {0} Boss. {1} restant(s)"
+    - "\u30DC\u30B9 x {0} \u3092\u9000\u6CBB\u3002\u3042\u3068 {1}"
+    - "Derrota a {0} jefes. A\u00FAn queda {1}."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "BOSS INCOMING"
+    TermType: 0
+    Description: 
+    Languages:
+    - "BOSS INCOMING"
+    - "BOSS KOMMT"
+    - "\u8001\u5927\u4F86\u4E86"
+    - "\u8001\u5927\u6765\u4E86"
+    - "BOS MUNCUL"
+    - "LE BOSS ARRIVE"
+    - "\u30DC\u30B9\u767B\u5834"
+    - "JEFE ATACANDO"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Direct Control"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Direct Control"
+    - "Direkte Steuerung"
+    - "\u76F4\u63A5\u63A7\u5236"
+    - "\u76F4\u63A5\u63A7\u5236"
+    - "Kontrol Langsung"
+    - "Contr\u00F4le direct"
+    - "\u30C0\u30A4\u30EC\u30AF\u30C8\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB"
+    - "Control directo"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Relative Control"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Relative Control"
+    - "Relative Steuerung"
+    - "\u76F8\u5C0D\u63A7\u5236"
+    - "\u76F8\u5BF9\u63A7\u5236"
+    - "Kontrol Relatif"
+    - "Contr\u00F4le relatif"
+    - "\u30EA\u30E9\u30C6\u30A3\u30D6\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB"
+    - "Control relativo"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tip: Charge your Special Attack bar faster by clearing enemy waves"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tip: Charge your Special Attack bar faster by clearing enemy waves"
+    - "Tipp: Lade deinen Spezialangriffsbalken schneller auf, indem du Gegnerwellen
+    beseitigst"
+    - "\u63D0\u793A\uFF1A\u6E05\u9664\u6575\u6CE2\u53EF\u52A0\u5FEB\u7279\u653B\u6B04\u5145\u96FB\u901F\u5EA6"
+    - "\u63D0\u793A\uFF1A\u6E05\u9664\u654C\u6CE2\u53EF\u52A0\u5FEB\u7279\u653B\u680F\u5145\u7535\u901F\u5EA6"
+    - "Tip: Mengisi Serangan bar khusus Anda lebih cepat dengan membersihkan
+    gelombang musuh"
+    - "Astuce : chargez votre barre d'attaque sp\u00E9ciale plus vite en effa\u00E7ant
+    les vagues ennemies."
+    - "\u30D2\u30F3\u30C8: \u6575\u306E\u8972\u6483\u3092\u30AF\u30EA\u30A2\u3057\u3066[\u30B9\u30DA\u30B7\u30E3\u30EB\u30A2\u30BF\u30C3\u30AF]\u30D0\u30FC\u3092\u6025\u901F\u30C1\u30E3\u30FC\u30B8"
+    - "Consejo: Carga la barra de Ataque especial con mayor rapidez eliminando
+    las ondas enemigas"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Tip: Upgrading a tank's SPC will also make them stronger support
+    buddies"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tip: Upgrading a tank's SPC will also make them stronger support
+    buddies"
+    - "Tipp: Beim Upgrade des Dienstgrads eines Panzers wird er auch ein
+    st\u00E4rkerer Unterst\u00FCtzungskamerad"
+    - "\u63D0\u793A\uFF1A\u5347\u7D1A\u5766\u514BSPC\uFF08\u901F\u5EA6\u6307\u793A\u7269\uFF09\u4E5F\u5C07\u589E\u5F37\u5925\u4F34\u652F\u6301\u529B"
+    - "\u63D0\u793A\uFF1A\u5347\u7EA7\u5766\u514BSPC\uFF08\u901F\u5EA6\u6307\u793A\u7269\uFF09\u4E5F\u5C06\u589E\u5F3A\u4F19\u4F34\u652F\u6301\u529B"
+    - "Tip: Upgrade SPC tangki juga akan membuat mereka teman dukungan kuat"
+    - "Astuce : mettre le rev\u00EAtement d'un char \u00E0 niveau en fera aussi un
+    meilleur soutien."
+    - "\u30D2\u30F3\u30C8: \u6226\u8ECA\u306ESPC\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3059\u308B\u3068\u3001\u30B5\u30DD\u30FC\u30C8\u30D0\u30C7\u30A3\u3082\u5F37\u5316\u3055\u308C\u307E\u3059"
+    - "Consejo: Al actualizar el SPC del tanque, lo fortalece para apoyar
+    a los compa\u00F1eros."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Unlock at Level {0}"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Unlock at Level {0}"
+    - "Schalte auf Stufe {0}"
+    - "\u5728\u89E3\u9396\u7D1A\u5225{0}"
+    - "\u5728\u89E3\u9501\u7EA7\u522B{0}"
+    - "Aktifkan di Level {0}"
+    - "D\u00E9verrouillez au niveau {0}"
+    - "\u30EC\u30D9\u30EB\u3067\u306E\u30ED\u30C3\u30AF\u3092\u89E3\u9664{0}"
+    - "Desbloquear en el Nivel {0}"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "You have earned {0} while you were away. Collect Now"
+    TermType: 0
+    Description: 
+    Languages:
+    - "You have earned {0} coins while you were away. Collect Now"
+    - "Du hast {0} Coins verdient, w\u00E4hrend du weg warst. Sammle es jetzt
+    ein."
+    - "\u60A8\u5728\u96E2\u958B\u81F3\u4ECA\u5DF2\u7D93\u8CFA\u53D6{0}\u500B\u786C\u5E63\u3002\u5373\u523B\u9818\u53D6"
+    - "\u60A8\u5728\u79BB\u5F00\u81F3\u4ECA\u5DF2\u7ECF\u8D5A\u53D6{0}\u4E2A\u786C\u5E01\u3002\u5373\u523B\u9886\u53D6"
+    - "Anda telah mendapatkan {0} Koin. Kumpulkan sekarang"
+    - "Vous avez gagn\u00E9 {0} Pi\u00E8ces en votre absence. R\u00E9coltez-les maintenant."
+    - "\u30D7\u30EC\u30A4\u3057\u3066\u3044\u306A\u3044\u9593\u306B {0} \u30B3\u30A4\u30F3 \u3092\u53D6\u5F97\u3057\u307E\u3057\u305F\u3002\u4ECA\u3059\u3050\u53CE\u96C6\u3057\u307E\u3057\u3087\u3046"
+    - "Ganaste {0} monedas mientras no estabas. Recoge ahora."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Continue {0} times. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Continue {0} times. {1} to go"
+    - "Weiter {0} mal. {1} gehen"
+    - "\u7E7C\u7E8C{0}\u6B21\u3002 {1}\u53BB"
+    - "\u7EE7\u7EED{0}\u6B21\u3002 {1}\u53BB"
+    - "Lanjutkan {0} kali. {1} lagi"
+    - "Continuer {0} fois. {1} aller"
+    - "{0}\u56DE\u7D9A\u3051\u307E\u3059\u3002 {1} GO TO"
+    - "Continuar {0} veces. {1} para ir"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Clear {0} x enemy waves. {1} to go"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Clear {0} x enemy waves. {1} to go"
+    - "Klar {0} x Feind Wellen. {1} gehen"
+    - "\u6E05\u9664{0}\u00D7\u6575\u4EBA\u6CE2\u3002 {1}\u53BB"
+    - "\u6E05\u9664{0}\u00D7\u654C\u4EBA\u6CE2\u3002 {1}\u53BB"
+    - "Kalahkan {0} x gelombang musuh. {1} lagi"
+    - "Clair {0} x vagues ennemies. {1} aller"
+    - "\u30AF\u30EA\u30A2{0} X\u6575\u6CE2\u3002 {1} GO TO"
+    - "Claras olas enemigo {0} x. {1} para ir"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "You have maxed your earning. Play Now"
+    TermType: 0
+    Description: 
+    Languages:
+    - "You have maxed your earning. Play Now"
+    - "Du hast deinen Verdienst ausgesch\u00F6pft. Spiele jetzt"
+    - "\u60A8\u5DF2\u7D93\u8CFA\u5920\u734E\u91D1\u3002\u5373\u523B\u73A9"
+    - "\u60A8\u5DF2\u7ECF\u8D5A\u591F\u5956\u91D1\u3002\u5373\u523B\u73A9"
+    - "Anda telah maxed penghasilan Anda. Main sekarang"
+    - "Vous avez atteint le maximum des gains. Jouez maintenant."
+    - "\u6700\u5927\u307E\u3067\u53D6\u5F97\u3057\u307E\u3057\u305F\u3002\u4ECA\u3059\u3050\u30D7\u30EC\u30A4"
+    - "Has incrementado tus ganancias.Juega ahora."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  - Term: "Ads not ready. Please try again."
+    TermType: 0
+    Description: 
+    Languages:
+    - "Ads not ready. Please try again."
+    - "Anzeigen nicht bereit. Bitte versuche es erneut."
+    - "\u5EE3\u544A\u6C92\u6709\u6E96\u5099\u597D\u3002\u8ACB\u518D\u8A66\u4E00\u6B21\u3002"
+    - "\u5E7F\u544A\u6CA1\u6709\u51C6\u5907\u597D\u3002\u8BF7\u518D\u8BD5\u4E00\u6B21\u3002"
+    - "Iklan tidak siap. Silakan coba lagi."
+    - "Annonces pas pr\u00EAt. Veuillez r\u00E9essayer."
+    - "\u5E83\u544A\u306E\u6E96\u5099\u304C\u3067\u304D\u3066\u3044\u307E\u305B\u3093\u3002\u3082\u3046\u4E00\u5EA6\u3084\u308A\u76F4\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+    - "Los anuncios no listo. Int\u00E9ntalo de nuevo."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000
+  mLanguages:
+  - Name: "English"
+    Code: "en"
+    Flags: 0
+  - Name: "German"
+    Code: "de"
+    Flags: 0
+  - Name: "Chinese (Traditional)"
+    Code: "zh-TW"
+    Flags: 0
+  - Name: "Chinese (Simplified)"
+    Code: "zh-CN"
+    Flags: 0
+  - Name: "Indonesian"
+    Code: "id"
+    Flags: 0
+  - Name: "French"
+    Code: "fr"
+    Flags: 0
+  - Name: "Japanese"
+    Code: "ja"
+    Flags: 0
+  - Name: "Spanish"
+    Code: "es"
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets: []
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
